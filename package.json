@@ -1,0 +1,17 @@
+{
+  "name": "fullstack-ai-journey",
+  "version": "1.0.0",
+  "description": "30-day Full-Stack and AI engineering journey",
+  "private": true,
+  "scripts": {
+    "start": "node day-01/app.js",
+    "dev": "tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
